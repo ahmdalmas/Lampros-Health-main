@@ -25,6 +25,7 @@
 
     <!-- Template Stylesheet -->
     <link href="css/style.css" rel="stylesheet">
+    <link rel="stylesheet" href="css/heroAnim.css">
 </head>
 
 <body>
@@ -64,7 +65,7 @@
     <!-- Nav Bar Start -->
     <div class="navbar navbar-expand-lg bg-dark navbar-dark">
         <div class="container">
-            <a href=""><img src="img/logo1.png" alt="Lampros" height="50px" width="150px"></a>
+            <div id="logo"><a href=""><img src="img/logo1.png" alt="Lampros" height="50px" width="150px"></a></div>
 
             <!-- <a href="index.html" class="navbar-brand">L<span>ampros</span></a> -->
             <button type="button" class="navbar-toggler" data-toggle="collapse" data-target="#navbarCollapse">
@@ -99,12 +100,37 @@
 
     <!-- Hero Start -->
     <div class="hero">
-        <div class="container-fluid">
+        <div class="container">
             <div class="row align-items-center">
+                <div class="col-sm-12 col-md-6">
+                    <div class="heroBo">
+                        <svg viewBox="0 0 800 600">
+                            <symbol id="s-text">
+                                <text text-anchor="middle" x="50%" y="35%" class="text--line">
+                                    Welcome to
+                                </text>
+                                <text text-anchor="middle" x="50%" y="68%" class="text--line2">
+                                    Sehha
+                                </text>
+
+                            </symbol>
+
+                            <g class="g-ants">
+                                <use xlink:href="#s-text" class="text-copy"></use>
+                                <use xlink:href="#s-text" class="text-copy"></use>
+                                <use xlink:href="#s-text" class="text-copy"></use>
+                                <use xlink:href="#s-text" class="text-copy"></use>
+                                <use xlink:href="#s-text" class="text-copy"></use>
+                            </g>
+
+
+                        </svg>
+                        
+                    </div>
+                </div>
                 <div class="col-sm-12 col-md-6">
                     <div class="hero-text">
                         <br>
-                        <h1> </h1>
                         <p>
                             Sehha Lifestyle is a client oriented company. We endeavour to supply quality equipment
                             meeting the requirement of our esteemed clients. </p>
@@ -114,11 +140,8 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-sm-12 col-md-6">
-                    <div class="hero-image">
-                        <img src="img/logo.png" alt="Hero Image" style="max-width: 60%;">
-                    </div>
-                </div>
+                
+                
             </div>
         </div>
     </div>
@@ -227,10 +250,10 @@
                     </ul>
                 </div>
             </div>
-            <div class="row class-container">
+            <div class="row class   -container" style="margin-right: 0; margin-left: 0;">
                 <div class="col-lg-4 col-md-6 col-sm-12 class-item filter-1 wow fadeInUp" data-wow-delay="0.0s">
-                    <div class="class-wrap">
-                        <div class="">
+                    <div class="class-filter">
+                        <div class="text-center">
                             <img src="img/Screenshot 2023-09-07 114050.png" alt="Image" width="290px" height="250px">
                         </div>
                         <div class="class-text">
@@ -253,16 +276,16 @@
                                 </div>
                             </div>
                             <div class="price-footer">
-                            <div class="price-action">
-                                <a class="btn" href="https://wa.me/7592900050?text=Hi">Shop Now </a>
+                                <div class="price-action">
+                                    <a class="btn" href="https://wa.me/7592900050?text=Hi">Shop Now </a>
+                                </div>
                             </div>
-                        </div>
                         </div>
                     </div>
                 </div>
                 <div class="col-lg-4 col-md-6 col-sm-12 class-item filter-2 wow fadeInUp" data-wow-delay="0.2s">
                     <div class="class-wrap">
-                        <div class="">
+                        <div class="text-center">
                             <img src="img/Screenshot 2023-09-07 113724.png" alt="Image" width="290px" height="250px">
                         </div>
                         <div class="class-text">
@@ -294,7 +317,7 @@
                 </div>
                 <div class="col-lg-4 col-md-6 col-sm-12 class-item filter-3 wow fadeInUp" data-wow-delay="0.4s">
                     <div class="class-wrap">
-                        <div class="">
+                        <div class="text-center">
                             <img src="img/f2a51817-b027-4db4-a8ea-425b70a4c2a9.jpg" alt="Image" width="290px"
                                 height="250px">
                         </div>
@@ -327,7 +350,7 @@
                 </div>
                 <div class="col-lg-4 col-md-6 col-sm-12 class-item filter-4 wow fadeInUp" data-wow-delay="0.6s">
                     <div class="class-wrap">
-                        <div class="">
+                        <div class="text-center">
                             <img src="img/Screenshot 2023-09-07 114020.png" alt="Image" width="290px" height="250px">
                         </div>
                         <div class="class-text">
@@ -359,7 +382,7 @@
                 </div>
                 <div class="col-lg-4 col-md-6 col-sm-12 class-item filter-1 wow fadeInUp" data-wow-delay="0.8s">
                     <div class="class-wrap">
-                        <div class="">
+                        <div class="text-center">
                             <img src="img/Screenshot 2023-09-07 113015.png" alt="Image" width="290px" height="250px">
                         </div>
                         <div class="class-text">
@@ -391,7 +414,7 @@
                 </div>
                 <div class="col-lg-4 col-md-6 col-sm-12 class-item filter-2 wow fadeInUp" data-wow-delay="1s">
                     <div class="class-wrap">
-                        <div class="">
+                        <div class="text-center">
                             <img src="img/WhatsApp Image 2023-09-07 at 11.04.32 AM.jpeg" alt="Image" width="290px"
                                 height="250px">
                         </div>
@@ -655,12 +678,12 @@
         <div class="container-fluid">
             <div class="container">
                 <div class="footer-info">
-                    <a href="index.html" class="footer-logo"><img src="img/logo1.png" alt="Lampros" height="75px"
+                    <a href="index.html" class="footer-logo"><img src="img/logo1a.png" alt="Lampros" height="80px"
                             width="300px"></a>
-                    <h3>Wayanad road , Opp YAMAHA Showroom ,Koduvally ,Calicut 673572</h3>
+                    <h3>Wayanad Road, Opp YAMAHA Showroom, Koduvally, Calicut 673572</h3>
                     <div class="footer-menu">
                         <p>+91 7592900050</p>
-                        <p>lamproshealthcare@gmail.com</p>
+                        <p>sehhalifestyle@gmail.com</p>
                     </div>
                     <div class="footer-social">
                         <a href=""><i class="fab fa-twitter"></i></a>
@@ -703,6 +726,7 @@
 
     <!-- Template Javascript -->
     <script src="js/main.js"></script>
+    <script src="js/logoChange.js"></script>
 </body>
 
 </html>

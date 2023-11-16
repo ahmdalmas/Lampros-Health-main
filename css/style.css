@@ -2031,4 +2031,14 @@ a:focus {
         margin: 5px 0;
         text-align: center;
     }
+
+    .footer .footer-menu p {
+        
+        font-size: 14px;
+    }
+
+    .footer-logo img{
+       height: 75px!important;
+       width: 225px!important;
+    }
 }
