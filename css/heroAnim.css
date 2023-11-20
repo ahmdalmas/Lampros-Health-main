@@ -17,23 +17,23 @@ svg {
   animation: stroke-offset 9s infinite linear;
 }
 .text-copy:nth-child(1) {
-  stroke: #000;
+  stroke: #13b689;
   stroke-dashoffset: 7%;
 }
 .text-copy:nth-child(2) {
-  stroke: #000;
+  stroke: #13b689;
   stroke-dashoffset: 14%;
 }
 .text-copy:nth-child(3) {
-  stroke: #000;
+  stroke: #13b689;
   stroke-dashoffset: 21%;
 }
 .text-copy:nth-child(4) {
-  stroke: #000;
+  stroke: #13b689;
   stroke-dashoffset: 28%;
 }
 .text-copy:nth-child(5) {
-  stroke: #000;
+  stroke: #1394b9;
   stroke-dashoffset: 35%;
 }
 @keyframes stroke-offset {
